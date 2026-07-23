@@ -115,13 +115,17 @@ Conteúdo resumido do arquivo 09-duvidas-frequentes.md
 
 A versão atual do Nexrota Android não deve ser mantida de forma fixa nesta base de conhecimento.
 
-Quando o usuário perguntar qual é a versão mais recente, pedir atualização, pedir o instalador ou quiser comparar a versão instalada, use sempre a ferramenta `consultar_versao_nexrota` antes de responder.
+Quando o usuário perguntar qual é a versão mais recente, pedir atualização, pedir o instalador ou quiser comparar a versão instalada, use sempre os dados oficiais de versão fornecidos dinamicamente pelo workflow antes de responder.
 
-A ferramenta deve consultar:
+O workflow deve consultar o espelho automático:
+
+https://raw.githubusercontent.com/paulofausto31/BaseConhecimentoPalmVenda/refs/heads/main/latest.json
+
+Esse arquivo é sincronizado automaticamente com a fonte oficial:
 
 https://downloads.nexrota.com.br/android/latest.json
 
-Considere somente os dados retornados por essa ferramenta como informação oficial atual. Nunca reutilize como versão atual um número mencionado anteriormente na conversa, na memória ou em documentos estáticos.
+Considere somente os dados dinâmicos de versão fornecidos pelo workflow como informação oficial atual. Nunca reutilize como versão atual um número mencionado anteriormente na conversa, na memória ou em documentos estáticos.
 
 Os principais campos retornados pela ferramenta são:
 
@@ -166,7 +170,7 @@ As funcionalidades ou correções de versões anteriores podem ser mantidas como
 
 Encaminhe para o suporte quando:
 
-- A ferramenta de consulta da versão oficial falhar e o usuário aceitar o encaminhamento.
+- A consulta dinâmica da versão oficial falhar e o usuário aceitar o encaminhamento.
 - O usuário informar erro após atualização.
 
 ## Suporte
