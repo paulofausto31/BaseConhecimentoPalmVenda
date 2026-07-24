@@ -2,7 +2,7 @@ name: Sincronizar versão do Nexrota
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,11 +15,11 @@ concurrency:
 jobs:
   sincronizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Baixar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Consultar e validar versão oficial
         shell: bash
@@ -31,10 +31,11 @@ jobs:
             --silent \
             --show-error \
             --location \
-            --connect-timeout 10 \
-            --max-time 30 \
-            --retry 3 \
-            --retry-delay 2 \
+            --connect-timeout 20 \
+            --max-time 60 \
+            --retry 6 \
+            --retry-all-errors \
+            --retry-delay 15 \
             --output latest.tmp.json \
             https://downloads.nexrota.com.br/android/latest.json
 
