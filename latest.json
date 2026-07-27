@@ -2,7 +2,20 @@
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
   "fileSize": 14425762,
   "platform": "android",
-  "publishedAt": "2026-07-26",
+  "publishedAt": "2026-07-27",
+  "releaseNotes": {
+    "fixes": [
+      "A validação da configuração agora identifica campos obrigatórios e portas inválidas antes da sincronização.",
+      "Melhorada a compatibilidade com servidores que usam diferentes formatos de caminho para a pasta do vendedor."
+    ],
+    "improvements": [
+      "Na primeira configuração, o aplicativo pode sugerir automaticamente os dados necessários para a comunicação.",
+      "As conexões local e remota agora permitem portas configuradas separadamente.",
+      "A tela de comunicação disponibiliza apenas os canais que estão corretamente configurados."
+    ],
+    "knownIssues": [],
+    "summary": "Configuração inicial mais simples e comunicação mais confiável."
+  },
   "sha256": "BEC2E542B35894DFA5E4607A9E360C8E01A7D507F3FA9EE27FD75155FAE398DC",
   "version": "20.1.0",
   "versionCode": 200100
