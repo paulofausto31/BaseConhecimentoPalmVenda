@@ -1,22 +1,23 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14425762,
+  "fileSize": 14425945,
   "platform": "android",
-  "publishedAt": "2026-07-27",
+  "publishedAt": "2026-07-28",
   "releaseNotes": {
     "fixes": [
-      "A validação da configuração agora identifica campos obrigatórios e portas inválidas antes da sincronização.",
-      "Melhorada a compatibilidade com servidores que usam diferentes formatos de caminho para a pasta do vendedor."
+      "Execuções em modo debug não consultam nem enviam eventos ao Gestão e não deixam registros pendentes para envio posterior.",
+      "Corrigida a acentuação do título Evolução da transferência na tela de comunicação."
     ],
     "improvements": [
-      "Na primeira configuração, o aplicativo pode sugerir automaticamente os dados necessários para a comunicação.",
-      "As conexões local e remota agora permitem portas configuradas separadamente.",
-      "A tela de comunicação disponibiliza apenas os canais que estão corretamente configurados."
+      "O total do pedido agora é exibido ao lado dos itens adicionados e atualizado após inclusões, edições e exclusões.",
+      "Na inclusão de produtos, os campos permanecem fixos e somente a lista de itens é rolável.",
+      "A área de itens ficou maior com a remoção do cabeçalho redundante do formulário.",
+      "Ao salvar as configurações gerais, o aplicativo agora confirma que os dados foram salvos com sucesso."
     ],
     "knownIssues": [],
-    "summary": "Configuração inicial mais simples e comunicação mais confiável."
+    "summary": "Inclusão de produtos mais prática, configurações com confirmação e desenvolvimento sem registros indevidos no Gestão."
   },
-  "sha256": "BEC2E542B35894DFA5E4607A9E360C8E01A7D507F3FA9EE27FD75155FAE398DC",
-  "version": "20.1.0",
-  "versionCode": 200100
+  "sha256": "2387E93DF57A3887F967EFEEC4B8A375163CAF1ECC0F5E1DB8B03B59399AE548",
+  "version": "20.1.1",
+  "versionCode": 200101
 }
