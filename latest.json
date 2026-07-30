@@ -1,23 +1,25 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14426127,
+  "fileSize": 14426646,
   "platform": "android",
   "publishedAt": "2026-07-29",
   "releaseNotes": {
     "fixes": [
       "Eliminada a perda de tempo causada por tentativas acidentais de selecionar novamente um produto já incluído.",
-      "Corrigida a ordenação inconsistente dos resultados da pesquisa por descrição."
+      "Corrigida a ordenação inconsistente dos resultados da pesquisa por descrição.",
+      "A origem selecionada agora é preservada também em falhas de sincronização, mantendo compatibilidade com eventos antigos que ainda não possuem essa informação."
     ],
     "improvements": [
       "Ao tocar na quantidade padrão 1, o campo é limpo automaticamente para agilizar a digitação.",
       "Produtos já incluídos no pedido deixam de aparecer nas listas de produtos disponíveis.",
       "A exclusão dos produtos já utilizados também funciona nas pesquisas e nos filtros por linha e fornecedor.",
-      "Os resultados de produtos agora são apresentados em ordem alfabética pela descrição, respeitando a ordenação em português."
+      "Os resultados de produtos agora são apresentados em ordem alfabética pela descrição, respeitando a ordenação em português.",
+      "O Gestão agora identifica se cada importação ou exportação foi realizada pela conexão local ou remota, inclusive após o reenvio de eventos pendentes."
     ],
     "knownIssues": [],
     "summary": "Inclusão de produtos mais rápida, evitando pesquisas e tentativas repetidas no mesmo pedido."
   },
-  "sha256": "0516C0B4F9097166BF4AF8FF4E5BA8F51B89C2CE8A6AF4E30296EDD9CE1E01F1",
-  "version": "20.2.0",
-  "versionCode": 200200
+  "sha256": "1DFC37A9D2F97D28B63B1C0117D4F02FA06DB78F0435E9081DAC306E616ACED6",
+  "version": "20.2.1",
+  "versionCode": 200201
 }
