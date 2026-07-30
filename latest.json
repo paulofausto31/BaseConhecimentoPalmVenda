@@ -1,23 +1,23 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14425945,
+  "fileSize": 14426127,
   "platform": "android",
-  "publishedAt": "2026-07-28",
+  "publishedAt": "2026-07-29",
   "releaseNotes": {
     "fixes": [
-      "Execuções em modo debug não consultam nem enviam eventos ao Gestão e não deixam registros pendentes para envio posterior.",
-      "Corrigida a acentuação do título Evolução da transferência na tela de comunicação."
+      "Eliminada a perda de tempo causada por tentativas acidentais de selecionar novamente um produto já incluído.",
+      "Corrigida a ordenação inconsistente dos resultados da pesquisa por descrição."
     ],
     "improvements": [
-      "O total do pedido agora é exibido ao lado dos itens adicionados e atualizado após inclusões, edições e exclusões.",
-      "Na inclusão de produtos, os campos permanecem fixos e somente a lista de itens é rolável.",
-      "A área de itens ficou maior com a remoção do cabeçalho redundante do formulário.",
-      "Ao salvar as configurações gerais, o aplicativo agora confirma que os dados foram salvos com sucesso."
+      "Ao tocar na quantidade padrão 1, o campo é limpo automaticamente para agilizar a digitação.",
+      "Produtos já incluídos no pedido deixam de aparecer nas listas de produtos disponíveis.",
+      "A exclusão dos produtos já utilizados também funciona nas pesquisas e nos filtros por linha e fornecedor.",
+      "Os resultados de produtos agora são apresentados em ordem alfabética pela descrição, respeitando a ordenação em português."
     ],
     "knownIssues": [],
-    "summary": "Inclusão de produtos mais prática, configurações com confirmação e desenvolvimento sem registros indevidos no Gestão."
+    "summary": "Inclusão de produtos mais rápida, evitando pesquisas e tentativas repetidas no mesmo pedido."
   },
-  "sha256": "2387E93DF57A3887F967EFEEC4B8A375163CAF1ECC0F5E1DB8B03B59399AE548",
-  "version": "20.1.1",
-  "versionCode": 200101
+  "sha256": "0516C0B4F9097166BF4AF8FF4E5BA8F51B89C2CE8A6AF4E30296EDD9CE1E01F1",
+  "version": "20.2.0",
+  "versionCode": 200200
 }
