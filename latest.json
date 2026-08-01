@@ -1,25 +1,24 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14426646,
+  "fileSize": 14438487,
   "platform": "android",
-  "publishedAt": "2026-07-29",
+  "publishedAt": "2026-07-31",
   "releaseNotes": {
     "fixes": [
-      "Eliminada a perda de tempo causada por tentativas acidentais de selecionar novamente um produto já incluído.",
-      "Corrigida a ordenação inconsistente dos resultados da pesquisa por descrição.",
-      "A origem selecionada agora é preservada também em falhas de sincronização, mantendo compatibilidade com eventos antigos que ainda não possuem essa informação."
+      "Corrigida a codificação dos textos acentuados na base demonstrativa.",
+      "Corrigida a associação das rotas demonstrativas à empresa importada.",
+      "Configurações protegidas durante o uso do modo demonstração."
     ],
     "improvements": [
-      "Ao tocar na quantidade padrão 1, o campo é limpo automaticamente para agilizar a digitação.",
-      "Produtos já incluídos no pedido deixam de aparecer nas listas de produtos disponíveis.",
-      "A exclusão dos produtos já utilizados também funciona nas pesquisas e nos filtros por linha e fornecedor.",
-      "Os resultados de produtos agora são apresentados em ordem alfabética pela descrição, respeitando a ordenação em português.",
-      "O Gestão agora identifica se cada importação ou exportação foi realizada pela conexão local ou remota, inclusive após o reenvio de eventos pendentes."
+      "Modo demonstração com carga automática de dados incluídos no aplicativo.",
+      "Importação e exportação simuladas sem transmissão de pedidos.",
+      "Saída segura do modo demonstração com limpeza completa da base local.",
+      "Aviso na tela de login quando uma nova versão estiver disponível para download."
     ],
     "knownIssues": [],
-    "summary": "Inclusão de produtos mais rápida, evitando pesquisas e tentativas repetidas no mesmo pedido."
+    "summary": "Novo modo demonstração e aviso automático de atualizações disponíveis."
   },
-  "sha256": "1DFC37A9D2F97D28B63B1C0117D4F02FA06DB78F0435E9081DAC306E616ACED6",
-  "version": "20.2.1",
-  "versionCode": 200201
+  "sha256": "EF61A02E74B9074B1594846666CFB18D641EA767C2CB38AE9C6B877C5CB49109",
+  "version": "20.3.0",
+  "versionCode": 200300
 }
