@@ -1,24 +1,17 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14438487,
+  "fileSize": 14438441,
   "platform": "android",
-  "publishedAt": "2026-07-31",
+  "publishedAt": "2026-08-04",
   "releaseNotes": {
-    "fixes": [
-      "Corrigida a codificação dos textos acentuados na base demonstrativa.",
-      "Corrigida a associação das rotas demonstrativas à empresa importada.",
-      "Configurações protegidas durante o uso do modo demonstração."
-    ],
+    "fixes": [],
     "improvements": [
-      "Modo demonstração com carga automática de dados incluídos no aplicativo.",
-      "Importação e exportação simuladas sem transmissão de pedidos.",
-      "Saída segura do modo demonstração com limpeza completa da base local.",
-      "Aviso na tela de login quando uma nova versão estiver disponível para download."
+      "O código do cliente agora aparece à esquerda da razão social em destaque na lista de clientes."
     ],
     "knownIssues": [],
-    "summary": "Novo modo demonstração e aviso automático de atualizações disponíveis."
+    "summary": "Identificação mais rápida dos clientes na listagem."
   },
-  "sha256": "EF61A02E74B9074B1594846666CFB18D641EA767C2CB38AE9C6B877C5CB49109",
-  "version": "20.3.0",
-  "versionCode": 200300
+  "sha256": "73B54A462250217CEEDEDE6D7863829AFAC20F0FCC08EF47A28CC614C624518D",
+  "version": "20.3.1",
+  "versionCode": 200301
 }
