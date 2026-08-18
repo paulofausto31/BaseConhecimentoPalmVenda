@@ -1,8 +1,8 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14438305,
+  "fileSize": 14444307,
   "platform": "android",
-  "publishedAt": "2026-08-09",
+  "publishedAt": "2026-08-18",
   "releaseNotes": {
     "fixes": [],
     "improvements": [
@@ -11,7 +11,7 @@
     "knownIssues": [],
     "summary": "ajuste de visibilidade de pedidos não enviados"
   },
-  "sha256": "CE492025E09BEBC244DF1B6D54EF2D8847A1CE31F1A9352A205BA2D37061271C",
-  "version": "20.3.2",
-  "versionCode": 200302
+  "sha256": "1CACEC8AFF61453D1DA11BA1F34D020AACE673D38F5D2BD517C5DA979AE7DC22",
+  "version": "20.4.0",
+  "versionCode": 200400
 }
