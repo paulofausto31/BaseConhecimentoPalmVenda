@@ -1,17 +1,21 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14444307,
+  "fileSize": 14447353,
   "platform": "android",
-  "publishedAt": "2026-08-18",
+  "publishedAt": "2026-10-17",
   "releaseNotes": {
-    "fixes": [],
+    "fixes": [
+      "Detalhamento de respostas HTTP 400, 401, 403 e falhas de comunicação na tela de Comunicação."
+    ],
     "improvements": [
-      "Pedidos fechados e não enviados continuam visíveis mesmo quando pertencem a outro dia."
+      "Falhas de validação passam a registrar método, endpoint, duração e correlationId.",
+      "Logs técnicos incluem versão do app, dispositivo e operação sem expor credenciais.",
+      "Ajuste visual da tela de pedido para manter o contraste correto em tema claro."
     ],
     "knownIssues": [],
-    "summary": "ajuste de visibilidade de pedidos não enviados"
+    "summary": "melhoria no diagnóstico da validação da API"
   },
-  "sha256": "1CACEC8AFF61453D1DA11BA1F34D020AACE673D38F5D2BD517C5DA979AE7DC22",
-  "version": "20.4.0",
-  "versionCode": 200400
+  "sha256": "DA24FE89A6E038C8747C485FEDC2E8ADB4162C528E8B115B8765B01EBDE13D3C",
+  "version": "20.4.1",
+  "versionCode": 200401
 }
