@@ -1,8 +1,8 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14447353,
+  "fileSize": 14447274,
   "platform": "android",
-  "publishedAt": "2026-10-17",
+  "publishedAt": "2026-10-22",
   "releaseNotes": {
     "fixes": [
       "Detalhamento de respostas HTTP 400, 401, 403 e falhas de comunicação na tela de Comunicação."
@@ -15,7 +15,7 @@
     "knownIssues": [],
     "summary": "melhoria no diagnóstico da validação da API"
   },
-  "sha256": "DA24FE89A6E038C8747C485FEDC2E8ADB4162C528E8B115B8765B01EBDE13D3C",
-  "version": "20.4.1",
-  "versionCode": 200401
+  "sha256": "754971953E0FB2225ED5C417B04BF5C9EF60174C8721010B00C048ACC59794D0",
+  "version": "20.4.2",
+  "versionCode": 200402
 }
