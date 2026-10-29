@@ -1,21 +1,21 @@
 {
   "downloadUrl": "https://downloads.nexrota.com.br/android/nexrota-latest.apk",
-  "fileSize": 14447274,
+  "fileSize": 14446406,
   "platform": "android",
-  "publishedAt": "2026-10-22",
+  "publishedAt": "2026-10-29",
   "releaseNotes": {
     "fixes": [
-      "Detalhamento de respostas HTTP 400, 401, 403 e falhas de comunicação na tela de Comunicação."
+      "Importação e exportação deixam de ser bloqueadas por falha HTTP 400 na validação da licença."
     ],
     "improvements": [
-      "Falhas de validação passam a registrar método, endpoint, duração e correlationId.",
-      "Logs técnicos incluem versão do app, dispositivo e operação sem expor credenciais.",
-      "Ajuste visual da tela de pedido para manter o contraste correto em tema claro."
+      "HTTP 400 na validação da licença permite a sincronização com aviso ao usuário.",
+      "Logs técnicos incluem payload, headers, corpo da resposta, IDs, empresa, vendedor, aparelho e indicadores de truncamento.",
+      "O envio do log técnico pode ser feito diretamente pelo WhatsApp do suporte."
     ],
     "knownIssues": [],
-    "summary": "melhoria no diagnóstico da validação da API"
+    "summary": "contingência para falha de validação da licença e diagnóstico técnico ampliado"
   },
-  "sha256": "754971953E0FB2225ED5C417B04BF5C9EF60174C8721010B00C048ACC59794D0",
-  "version": "20.4.2",
-  "versionCode": 200402
+  "sha256": "9FEFA586DE813EA7DE81C3A9D5426845C5B8F0034CF94DE14F3048D17C1E4C06",
+  "version": "20.5.0",
+  "versionCode": 200500
 }
